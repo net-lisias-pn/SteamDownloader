@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+. ./.common.inc
+
+v=0.8.5.0
+
+dw $v ${APP} ${COMMON} 5035852905956098575
+dw $v ${APP} ${MACOS} 2484313046640671725
+dw $v ${APP} ${LINUX} 7961573117387715814
+dw $v ${APP} ${WINDOWS} 740334970812850374
