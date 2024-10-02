@@ -23,6 +23,9 @@ WiP
 
 WiP
 
+The total disk spaced needed to store all the 81 (public) releases (the ones those scripts are available on this repo) is slightly under 250GB **after** compressing the files with the best compression available on `7z`. Uncompressed, it's near 800GB.
+
+
 ## Installation
 
 Detailed installation instructions are now on its own file (see the [In a Hurry](#in-a-hurry) section) and on the distribution file.
