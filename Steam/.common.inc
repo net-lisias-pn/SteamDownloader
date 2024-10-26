@@ -10,10 +10,11 @@ LINUX=504053
 WINDOWS=504054
 
 dw() {
-	app=$1
-	depot=$2
-	manifest=$3
-	$RUNTIME $CMD -username $USER -remember-password -app $app -depot $depot -manifest $manifest -validate
+	v=$1
+	app=$2
+	depot=$3
+	manifest=$4
+	$RUNTIME $CMD -username $USER -remember-password -app $app -depot $depot -manifest $manifest -validate -dir ./depots/$v/app_$app/depot_$depot
 	e=$?
 	if [ $e -ne 0 ] ; then
 		echo Err! $e
