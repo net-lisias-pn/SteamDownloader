@@ -3,7 +3,7 @@
 *Lasciate ogne speranza, voi ch'intrate*
 - - - 
 
-WiP
+Scripts for downloading previous releases of Planet Nomads.
 
 
 ## In a Hurry
@@ -11,7 +11,7 @@ WiP
 * Documentation
 	+ [Homepage](https://pn.lisias.net/) on L Aerospace
 	+ [Project's README](https://github.com/net-lisias-pn/SteamDownloader/blob/master/README.md)
-	+ [Install Instructions](https://github.com/net-lisias-pn/SteamDownloader/blob/master/INSTALL.md)
+	+ [How To](./Docs/HOW-TO.md)
 	+ [Change Log](./CHANGE_LOG.md)
 * Support
 	+ [Steam](https://steamcommunity.com/app/504050/discussions/0/4339861173662140528/)
@@ -21,16 +21,14 @@ WiP
 
 ## Description
 
-WiP
+This is a series of scripts for automating the download of every public (non experimental) release of Planet Nomads for archiving and study. **DO NOT** redistribute the downloadables, this would be piracy.
+
+Releases notes are already added to this repository.
 
 The total disk spaced needed to store all the 81 (public) releases (the ones those scripts are available on this repo) is slightly under 250GB **after** compressing the files with the best compression available on `7z`. Uncompressed, it's near 800GB.
 
 
-## Installation
-
-Detailed installation instructions are now on its own file (see the [In a Hurry](#in-a-hurry) section) and on the distribution file.
-
-### License
+## License
 
 * This work is licensed as follows:
 	+ [GPL 2.0](https://www.gnu.org/licenses/gpl-2.0.txt). See [here](./LICENSE.GPL-2_0)
