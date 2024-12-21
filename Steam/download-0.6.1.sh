@@ -2,7 +2,7 @@
 
 . ./.common.inc
 
-v=x
+v=0.6.1
 
 dw $v ${APP} ${COMMON} 6137954738347304559
 dw $v ${APP} ${MACOS} 2201418831203229890
