@@ -17,12 +17,12 @@ Install the latest Mono or [.NET](https://dotnet.microsoft.com/en-us/download/do
 
 Without it, it will be pretty cumbersome to archive all that binaries.
 
-Install it using the install method for your rig (macpots, apt, chocolatey, wathever).
+Install it using the install method for your rig (macports, apt, chocolatey, wathever).
 
 
 ## Configuring
 
-After checking out this repo, let's say on `Workspaces/PlanetNomads/GIT/SteamDownloader` like I did, open your shell and:
+After checking out this repo, let's say on `~/Workspaces/PlanetNomads/GIT/SteamDownloader` like I did, open your shell and:
 
 ```
 cd ~/Workspaces/PlanetNomads/GIT/SteamDownloader
@@ -30,7 +30,7 @@ cd Steam
 vi .common.inc
 ```
 
-This will edit the file [Steam/.common.inc](https://github.com/net-lisias-pn/SteamDownloader/blob/master/Steam/.common.inc) - but you can use any text editor you would prefer.
+This will edit the file [Steam/.common.inc](https://github.com/net-lisias-pn/SteamDownloader/blob/master/Steam/.common.inc) - but you can use any text editor you would prefer - I like to use `mcedit` from `MidnightCommander`.
 
 You need to configure your Steam username on the `USER` variable, and the `RUNTIME` and `CMD` accordingly your setup.
 
@@ -60,19 +60,17 @@ cd Steam
 ./auth.sh
 ```
 
-If everything is correctly configured, this will authenticate you on Steam as follows.
-
-You will need to type your steam password as follows:
+If everything is correctly configured, this will authenticate you on Steam as follows (you will need to type your steam password):
 
 ![auth](./auth-passwd.png)
 
-This is the `DepotDownloader`, not the script - I do not have access to this password, rest assured.
+This is the `DepotDownloader`, not the script - I **do not** have access to this password, rest assured.
 
 Steam will send you an email with an authentication code. You will need to get that code and type it as shown below:
 
 ![auth-code](./auth-code.png)
 
-If everything is properly configured and you didn't err the auth code, you will have the following text on your console:
+If everything is properly configured and you didn't err the auth process, you will have the following text on your console:
 
 ![auth](./auth.png)
 
@@ -90,7 +88,7 @@ And so goes on.
 
 If the download gets interrupted, just run the same script again. It will continue from where it stopped.
 
-You can also validate the download contents by running the script again after all is finished. Remember do run `auth.sh` if you decide to validate the download some time after downloading it, as the Steam auth will be expired for sure.
+You can also validate the download contents by running the script again after everything is finished. Remember do run `auth.sh` if you decide to validate the download some time after downloading it, as the Steam auth will be expired for sure.
 
 ### Compressing
 
@@ -104,7 +102,7 @@ Don't do that while downloading.
 
 Once a `.7z` file is found, the respective depot is ignored. If by any reason the process fail, you will need to delete the `.7z` files and start again.
 
-Be advised: this is a terribly intensive CPU and memory process, got watch a movie or play a videogame somewhere else - this is going to take a while.
+Be advised: this is a terribly intensive CPU and memory process, go watch a movie or play a videogame somewhere else - this is going to take a while.
 
 
 ## Dependencies
